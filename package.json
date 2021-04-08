@@ -1,6 +1,6 @@
 {
-  "homepage": "http://joshrehanek.github.io/react-employee-directory",
-  "name": "react-template",
+  "homepage": "http://joshrehanek.github.io/react-portfolio",
+  "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
