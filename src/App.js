@@ -11,7 +11,7 @@ export default function App() {
       <Router>
         <Nav />
         <Switch>
-          <Route path="/" exact component={Home}/>
+          <Route path="/" exact component={Home} />
         </Switch>
       </Router>
 
