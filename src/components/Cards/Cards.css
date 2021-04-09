@@ -1,0 +1,121 @@
+.cards {
+    padding: 10rem;
+    background: #111;
+  }
+  
+  h2 {
+    color:rgb(219, 28, 210);
+    text-align: center;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .cards-wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+  }
+  
+  .cards-data-ul {
+    margin-bottom: 24px;
+  }
+  
+  .card-data {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+  }
+  
+  .card-data-link {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(219, 28, 210, .17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .card-data-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 67%;
+    overflow: hidden;
+  }
+  
+  .fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+  }
+  
+  .card-data-wrap::after {
+    content: attr(data-category);
+    color: rgb(219, 28, 210);
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgb(219, 28, 210);
+    box-sizing: border-box;
+  }
+  
+  .card-data-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit:contain;
+    transition: all 0.2s linear;
+  }
+  
+  .card-data-img:hover {
+    transform: scale(1.1);
+  }
+  
+  .card-data-info {
+    padding: 20px 30px 30px;
+  }
+  
+  .card-data-text {
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .content-blog-container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .card-data {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .card-data {
+      margin-bottom: 2rem;
+    }
+  }
