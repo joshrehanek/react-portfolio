@@ -16,7 +16,7 @@ export default function Hero() {
                     type="video/mp4" />
             </video>
             <section class="banner" id="home">
-                <div class="textBox">
+                <div class="text-box">
                     <h2>Welcome, I'm<br></br><span>Joshua Azzam Rehanek.</span> </h2>
                     <h3>Full Stack Web Developer</h3>
                 <br>
