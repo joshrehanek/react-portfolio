@@ -1,0 +1,14 @@
+h2 {
+  color: rgb(219, 28, 210);
+}
+
+.heading {
+  text-align: center;
+}
+
+.footer-contact {
+  justify-content: center;
+  min-height: 400px;
+  background-color: black;
+  color: rgb(219, 28, 210);
+}
