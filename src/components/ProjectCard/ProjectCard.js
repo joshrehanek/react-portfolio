@@ -1,7 +1,7 @@
 import React from 'react';
 import {Card, Button} from "react-bootstrap";
 
-export default function ServicesCardData({ path, src, text }) {
+export default function ProjectCard({ path, src, text }) {
     return (
         <>
             <Card style={{ width: '18rem' }}>
