@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 
-function Footer() {
+export default function Footer() {
     return (
         <div className="footer-container">
             <div className="footer-contact">
@@ -10,7 +10,6 @@ function Footer() {
                 </div>
                 <div class="content">
                     <div class="contactInfo">
-                        <h3>Contact Info</h3>
                         <div class="contactInfoBox">
                             <div class="box">
                                 <div class="icon">
@@ -46,7 +45,5 @@ function Footer() {
                 </div>
             </div>
         </div>
-    )
-}
-
-export default Footer;
+    );
+};
