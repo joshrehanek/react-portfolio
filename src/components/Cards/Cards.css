@@ -16,9 +16,34 @@ h2 {
 .service-card {
   text-align: center;
   min-height: 100px;
-  /* max-width: 100px; */
-  border: 2px solid white;
+  max-width: 100px;
+  color: #111;
+  background-color: rgba(0, 0, 0, 0.2);
   width: 30%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(28, 190, 219, 1);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+
+.project-card {
+  text-align: center;
+  min-height: 100px;
+  color: #111;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
 }
 
 .cards-container {
@@ -36,19 +61,6 @@ h2 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
-}
-
-.card-data-link {
-  display: flex;
-  align-items: center;
-  flex-flow: column;
-  width: 100%;
-  box-shadow: 0 6px 20px rgba(28, 190, 219, 1);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  border-radius: 10px;
-  overflow: hidden;
-  text-decoration: none;
 }
 
 .card-data-wrap {
@@ -93,7 +105,7 @@ h2 {
   transition: all 0.2s linear;
 }
 
-.card-data-img:hover {
+.service-card:hover {
   transform: scale(1.1);
 }
 
