@@ -19,7 +19,7 @@ export default function Cards() {
         <Container className="cards-container">
             <Row>
                 <Col>
-                     <ServicesCard 
+                    <ServicesCard 
                         src={AccessibilityImg}
                         text="Websites made with a focus on accessibility for all types of users."
                         label="Accessibility"
@@ -28,8 +28,7 @@ export default function Cards() {
                 <Col>             
                     <ServicesCard 
                         src= {FullStack}
-                        text= "Front to Back we got you covered. User interface & experience, routing, databases, & more. Let's
-                        build the complete website of your dreams."
+                        text= "Fluent in:  React, Javascript, Node, Express, Mongoose, MySQL, Sequelize, JQuery, HTML, CSS,  Bootstrap, Foundation, Git, AJAX, and more."
                         label="Full-Stack Web Development"
                         path="/services"
                     />
