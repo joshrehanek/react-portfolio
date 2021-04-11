@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import { Link } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import './styles.css';
 
@@ -32,7 +31,7 @@ export default function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/#services'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -41,7 +40,7 @@ export default function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/projects'
+                to='/#projects'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -51,7 +50,7 @@ export default function Navbar() {
 
             <li>
               <Link
-                to='/contact'
+                to='/#contact'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
