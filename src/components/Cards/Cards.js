@@ -50,6 +50,7 @@ export default function Cards() {
                     src={Recipes}
                     text="A full stack web Recipe app using Javascript, HTML, CSS, Node, Express, & Sequelize."
                     path="/projects"
+                    href="https://github.com/jinxdoll/my-favorite-recipes-app"
                     />
                 </Col>
                 <Col>      
@@ -57,6 +58,7 @@ export default function Cards() {
                     src={WeatherApp}
                     text="A front end weather app using React, Javascript, HTML, CSS, React Bootstrap, & Node."
                     path="/projects"
+                    href="https://github.com/joshrehanek/react-weather-app"
                     />
                 </Col>
                 <Col>
@@ -64,6 +66,7 @@ export default function Cards() {
                     src={BarTrivia}
                     text="A front end Bar Trivia Simulator using Javascript, HTML, CSS, Foundation, TheCocktailDB API, & Open Trivia Database API."
                     path="/projects"
+                    href="https://github.com/joshrehanek/bar-trivia-simulator"
                     />
                 </Col>
                 <Col>
@@ -71,6 +74,7 @@ export default function Cards() {
                     src={Fitness}
                     text="A full stack fitness tracker using Javascript, HTML, CSS, Node, Express, & Mongoose."
                     path="/projects"
+                    href="https://github.com/joshrehanek/fitness-tracking-app"
                     />
                 </Col>
             </Row>
