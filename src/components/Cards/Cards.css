@@ -1,32 +1,16 @@
-.cards {
-  padding: 2rem;
-  background: #111;
-}
-
 h2 {
   color: rgb(219, 28, 210);
   text-align: center;
 }
 
-.service-card {
-  text-align: center;
-  min-height: 100px;
-  max-width: 100px;
-  color: #111;
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 30%;
-  display: flex;
-  align-items: center;
-  flex-flow: column;
-  width: 100%;
-  box-shadow: 0 6px 20px rgba(28, 190, 219, 1);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  border-radius: 10px;
-  overflow: hidden;
-  text-decoration: none;
+.cards {
+  padding: 2rem;
+  background: #111;
 }
 
+.service-row {
+  display: flex;
+}
 
 .project-card {
   text-align: center;
@@ -70,21 +54,6 @@ h2 {
   animation-duration: 2s;
 }
 
-/* .card-data-wrap::after {
-    content: attr(data-category);
-    color: rgb(219, 28, 210);
-    position: absolute;
-    bottom: 0;
-    margin-left: 10px;
-    padding: 6px 8px;
-    max-width: calc((100%) - 60px);
-    font-size: 12px;
-    font-weight: 700;
-    color: #fff;
-    background-color: rgb(219, 28, 210);
-    box-sizing: border-box;
-  } */
-
 .card-data-img {
   position: absolute;
   top: 0;
@@ -115,19 +84,19 @@ h2 {
 }
 
 @media only screen and (min-width: 1200px) {
-  .content-blog-container {
-    width: 84%;
+  .cards-container {
+    display: flex;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  .card-data {
+  .cards-container {
     display: flex;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .card-data {
+  .cards-container {
     margin-bottom: 2rem;
   }
 }
