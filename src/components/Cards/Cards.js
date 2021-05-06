@@ -14,10 +14,11 @@ import './Cards.css';
 
 export default function Cards() {
     return (
+        <>
         <div id="services" className="cards">
             <h2>Services</h2>
             <Container className="cards-container">
-                <Row>
+                <Row className="service-row">
                     <Col>
                         <ServicesCard
                             src={AccessibilityImg}
@@ -42,12 +43,15 @@ export default function Cards() {
                     </Col>
                 </Row>
             </Container>
+        </div>
+        <div id="projects" className="cards">
             <h2 id="projects">Projects</h2>
             <Container className="cards-container">
                 <Row >
                     <Col>
                         <ProjectCard
                             src={Recipes}
+                            label="Everyday Recipes"
                             text="A full stack web Recipe app using Javascript, HTML, CSS, Node, Express, & Sequelize."
                             path="/projects"
                             href="https://github.com/jinxdoll/my-favorite-recipes-app"
@@ -56,6 +60,7 @@ export default function Cards() {
                     <Col>
                         <ProjectCard
                             src={WeatherApp}
+                            label="Anime Weather App"
                             text="A front end weather app using React, Javascript, HTML, CSS, React Bootstrap, & Node."
                             path="/projects"
                             href="https://github.com/joshrehanek/react-weather-app"
@@ -64,6 +69,7 @@ export default function Cards() {
                     <Col>
                         <ProjectCard
                             src={BarTrivia}
+                            label="Getcha Fix Virtual Bar Trivia"
                             text="A front end Bar Trivia Simulator using Javascript, HTML, CSS, Foundation, TheCocktailDB API, & Open Trivia Database API."
                             path="/projects"
                             href="https://github.com/joshrehanek/bar-trivia-simulator"
@@ -72,6 +78,7 @@ export default function Cards() {
                     <Col>
                         <ProjectCard
                             src={Fitness}
+                            label="Fitness Workout Tracker"
                             text="A full stack fitness tracker using Javascript, HTML, CSS, Node, Express, & Mongoose."
                             path="/projects"
                             href="https://github.com/joshrehanek/fitness-tracking-app"
@@ -80,5 +87,6 @@ export default function Cards() {
                 </Row>
             </Container>
         </div>
+        </>
     );
 };
