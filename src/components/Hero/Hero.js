@@ -47,6 +47,7 @@ export default function Hero() {
                     href={Resume}
                     download 
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <img
                         src="https://img.icons8.com/nolan/64/open-resume.png"
