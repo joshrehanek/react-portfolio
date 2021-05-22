@@ -6,15 +6,18 @@ h2 {
 .cards {
   padding: 2rem;
   background: #111;
+  align-items: center;
+  min-height: 100px;
+  
 }
 
 .service-row {
   display: flex;
 }
 
-.project-card {
+/* .project-card {
   text-align: center;
-  min-height: 100px;
+  max-height: fit-content;
   color: #111;
   background-color: rgba(0, 0, 0, 0.2);
   display: flex;
@@ -23,7 +26,7 @@ h2 {
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
-}
+} */
 
 .cards-container {
   display: flex;
@@ -47,6 +50,11 @@ h2 {
   width: 100%;
   padding-top: 67%;
   overflow: hidden;
+}
+
+.col {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .fade-img {
