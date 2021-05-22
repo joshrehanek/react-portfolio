@@ -9,6 +9,7 @@ import Recipes from '../../assets/images/everyday-recipes-2.png';
 import BarTrivia from '../../assets/images/Getcha-Fix-Bar-Trivia.png';
 import Fitness from '../../assets/images/fitness-app.png';
 import WeatherApp from '../../assets/images/react-weather-app.png';
+import ShowMyShow from '../../assets/videos/showmyshow.gif'
 import './Cards.css';
 
 
@@ -48,6 +49,15 @@ export default function Cards() {
             <h2 id="projects">Projects</h2>
             <Container className="cards-container">
                 <Row >
+                <Col>
+                        <ProjectCard
+                            src={ShowMyShow}
+                            label="ShowMyShow"
+                            text="A event app that allows the user to view shows in an area, save their favorite show, & chat with other music lovers & artists alike. Built using the MERN stack."
+                            path="/projects"
+                            href="https://showmyshow.herokuapp.com/"
+                        />
+                    </Col>
                     <Col>
                         <ProjectCard
                             src={Recipes}
