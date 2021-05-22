@@ -2,6 +2,7 @@ import React from "react";
 import "../../styles.css"
 import "./Hero.css"
 import PurpleGrid from "../../assets/videos/PurpleGrid.mp4"
+import Resume from "../../assets/images/Resume.pdf"
 
 
 export default function Hero() {
@@ -43,8 +44,9 @@ export default function Hero() {
                 </a>
                 <a
                     class="link"
-                    href="./assets/images/Resume.pdf"
-                    download="./assets/images/Resume.pdf"
+                    href={Resume}
+                    download 
+                    target="_blank"
                 >
                     <img
                         src="https://img.icons8.com/nolan/64/open-resume.png"
