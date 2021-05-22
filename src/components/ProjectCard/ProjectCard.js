@@ -16,7 +16,7 @@ export default function ProjectCard({ path, src, text, href, label }) {
                     </Card.Text>
                     <a target="_blank" rel="noreferrer" href={href}>
                         <Button variant="primary">
-                            Github
+                            View Project
                     </Button>
                     </a>
                 </Card.Body>
