@@ -7,7 +7,7 @@ import FullStack from '../../assets/images/full_stack.png';
 import WebDesign from '../../assets/images/web-design-2.png';
 import Recipes from '../../assets/images/everyday-recipes-2.png';
 import BarTrivia from '../../assets/images/Getcha-Fix-Bar-Trivia.png';
-import Fitness from '../../assets/images/fitness-app.png';
+import Fitness from '../../assets/videos/fitness-demo.gif';
 import WeatherApp from '../../assets/images/react-weather-app.png';
 import ShowMyShow from '../../assets/videos/showmyshow.gif'
 import './Cards.css';
