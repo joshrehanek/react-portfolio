@@ -2,3 +2,11 @@
     font-size: large;
     font-weight: 400;
 }
+
+.projects {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 18rem;
+}
