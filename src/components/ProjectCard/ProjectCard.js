@@ -4,8 +4,8 @@ import "./ProjectCard.css"
 
 export default function ProjectCard({ path, src, text, href, label }) {
     return (
-        <>
-            <Card style={{ width: '18rem' }}>
+        <div className="projects">
+            <Card>
                 <Card.Img path={path} variant="top" src={src} />
                 <Card.Body>
                     <Card.Text className="label">
@@ -21,6 +21,6 @@ export default function ProjectCard({ path, src, text, href, label }) {
                     </a>
                 </Card.Body>
             </Card>
-        </>
+        </div>
     )
 }
