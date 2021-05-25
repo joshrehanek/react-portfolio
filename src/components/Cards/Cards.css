@@ -4,6 +4,8 @@ h2 {
 }
 
 .cards {
+  display: flex;
+  flex-flow:column wrap;
   padding: 2rem;
   background: #111;
   align-items: center;
