@@ -38,6 +38,14 @@ h2 {
   transition: all 0.2s linear;
 }
 
+.card-img-top-service {
+  max-height: 231px;
+}
+
+.service-card {
+  height: 100%;
+}
+
 .service-card:hover {
   transform: scale(1.1);
 }
