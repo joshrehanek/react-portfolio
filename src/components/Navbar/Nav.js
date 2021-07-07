@@ -31,6 +31,15 @@ export default function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
+                to='/#bio'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Bio
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
                 to='/#services'
                 className='nav-links'
                 onClick={closeMobileMenu}
