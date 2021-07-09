@@ -4,6 +4,8 @@ h2 {
 }
 
 .cards {
+  display: flex;
+  flex-flow:column wrap;
   padding: 2rem;
   background: #111;
   align-items: center;
@@ -34,6 +36,14 @@ h2 {
   max-height: 100%;
   object-fit: contain;
   transition: all 0.2s linear;
+}
+
+.card-img-top-service {
+  max-height: 231px;
+}
+
+.service-card {
+  height: 100%;
 }
 
 .service-card:hover {

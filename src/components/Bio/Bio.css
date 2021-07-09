@@ -1,0 +1,18 @@
+.bio-container {
+    background-color: black;
+    color: white;
+    font-size: larger;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+#bio {
+    background-color: black;
+}
+
+img {
+    max-height: 50vh;
+    max-width: fit-content;
+    align-content: center;
+}

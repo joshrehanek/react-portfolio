@@ -10,8 +10,8 @@ export default function Navbar() {
 
 
   return (
-    <>
-      <nav className='navbar'>
+    <header className='nav'>
+      <nav>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             JAR
@@ -23,10 +23,19 @@ export default function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link 
-              to='/' 
+              to='/#home' 
               className='nav-links' 
               onClick={closeMobileMenu}>
                 Home
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/#bio'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Bio
               </Link>
             </li>
             <li className='nav-item'>
@@ -60,6 +69,6 @@ export default function Navbar() {
           </ul>
         </div>
       </nav>
-    </>
+    </header>
   );
 }

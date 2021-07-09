@@ -5,7 +5,7 @@ export default function ServicesCardData({ path, src, text, label }) {
     return (
         <>
             <Card className="service-card">
-                <Card.Img path={path} variant="top" src={src} label={label}/>
+                <Card.Img path={path} variant="top-service" src={src} label={label}/>
                 <Card.Body>
                     <Card.Text className="label">
                        {label}

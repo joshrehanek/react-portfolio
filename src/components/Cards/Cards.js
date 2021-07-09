@@ -53,7 +53,7 @@ export default function Cards() {
                             <ProjectCard
                                 src={ShowMyShow}
                                 label="ShowMyShow"
-                                text="A event app that allows the user to view shows in an area, save their favorite show, & chat with other music lovers & artists alike. Built using the MERN stack, Material-UI, Socket.io, AWS Amplify & Cognito as well as the Twitter & Ticketmaster API's."
+                                text="A event app that allows the user to view shows in an area, save their favorite show, & chat with other music lovers & artists alike. This app is built using the MERN stack (MongoDB, Express, React.js, Node.js). The chat portion of the app is bult with socket.io. ShowMyShow also utilizes the ticketmaster and twitter API's as well as AWS Amplify authentication."
                                 path="/projects"
                                 href="https://showmyshow.herokuapp.com/"
                                 href2="https://github.com/joshrehanek/showmyshow"
@@ -63,7 +63,7 @@ export default function Cards() {
                             <ProjectCard
                                 src={Recipes}
                                 label="Everyday Recipes"
-                                text="A full stack web Recipe app that allows users to create, save, update, & delete recipes built using Javascript, HTML, CSS, Node, Express, & Sequelize."
+                                text="A full stack web Recipe app that allows users to make, save, store, & delete their own recipes. This app is made using Javascript, HTML, CSS, Node.js, Express, & Sequelize."
                                 path="/projects"
                                 href="https://my-favorite-recipes-app-portla.herokuapp.com/"
                                 href2="https://github.com/jinxdoll/my-favorite-recipes-app"
@@ -73,7 +73,7 @@ export default function Cards() {
                             <ProjectCard
                                 src={WeatherApp}
                                 label="Anime Weather App"
-                                text="A front end weather app that allows users to search any city in the world and get the current weather. The apps background changes Anime themes to reflect the weather in the city the user searched. This app is built using React, Javascript, HTML, CSS, React Bootstrap, Node. & the OpenWeatherAPI."
+                                text="A front end weather app that allows users to search for the weather in a city, then dynamically changes the backgorund to match the weather in the cooresponding city. This app is made using React.js, Javascript, HTML, CSS, React Bootstrap, & Node.js."
                                 path="/projects"
                                 href="https://frozen-headland-03564.herokuapp.com/"
                                 href2="https://github.com/joshrehanek/react-weather-app"
@@ -93,7 +93,7 @@ export default function Cards() {
                             <ProjectCard
                                 src={Fitness}
                                 label="Fitness Workout Tracker"
-                                text="A full stack fitness tracking app that allows users to save and store their workouts which are then rendered into graphs. This app is built using Javascript, HTML, CSS, Node, Express, & Mongoose."
+                                text="A full stack fitness tracker that allows the user to save their workouts and then dynamically renders the data into visual graphs. This app is made using Javascript, HTML, CSS, Node.js, Express, & Mongoose."
                                 path="/projects"
                                 href="https://gentle-reef-09121.herokuapp.com/stats"
                                 href2="https://github.com/joshrehanek/fitness-tracking-app"

@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles.css"
 import "./Hero.css"
 import PurpleGrid from "../../assets/videos/PurpleGrid.mp4"
-import Resume from "../../assets/images/Resume.pdf"
+import Resume from "../../assets/images/Resume(Updated).pdf"
 
 
 export default function Hero() {
