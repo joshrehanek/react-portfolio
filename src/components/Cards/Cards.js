@@ -56,24 +56,27 @@ export default function Cards() {
                                 text="A event app that allows the user to view shows in an area, save their favorite show, & chat with other music lovers & artists alike. Built using the MERN stack."
                                 path="/projects"
                                 href="https://showmyshow.herokuapp.com/"
+                                href2="https://github.com/joshrehanek/showmyshow"
                             />
                         </Col>
                         <Col>
                             <ProjectCard
                                 src={Recipes}
                                 label="Everyday Recipes"
-                                text="A full stack web Recipe app using Javascript, HTML, CSS, Node, Express, & Sequelize."
+                                text="A full stack web Recipe app that allows users to create, save, update, & delete recipes built using Javascript, HTML, CSS, Node, Express, & Sequelize."
                                 path="/projects"
                                 href="https://my-favorite-recipes-app-portla.herokuapp.com/"
+                                href2="https://github.com/jinxdoll/my-favorite-recipes-app"
                             />
                         </Col>
                         <Col>
                             <ProjectCard
                                 src={WeatherApp}
                                 label="Anime Weather App"
-                                text="A front end weather app using React, Javascript, HTML, CSS, React Bootstrap, & Node."
+                                text="A front end weather app that allows users to serach  using React, Javascript, HTML, CSS, React Bootstrap, & Node."
                                 path="/projects"
                                 href="https://frozen-headland-03564.herokuapp.com/"
+                                href2="https://github.com/joshrehanek/react-weather-app"
                             />
                         </Col>
                         <Col>
@@ -83,6 +86,7 @@ export default function Cards() {
                                 text="A front end Bar Trivia Simulator using Javascript, HTML, CSS, Foundation, TheCocktailDB API, & Open Trivia Database API."
                                 path="/projects"
                                 href="https://joshrehanek.github.io/bar-trivia-simulator/"
+                                href2="https://github.com/joshrehanek/bar-trivia-simulator"
                             />
                         </Col>
                         <Col>
@@ -92,6 +96,7 @@ export default function Cards() {
                                 text="A full stack fitness tracker using Javascript, HTML, CSS, Node, Express, & Mongoose."
                                 path="/projects"
                                 href="https://gentle-reef-09121.herokuapp.com/stats"
+                                href2="https://github.com/joshrehanek/fitness-tracking-app"
                             />
                         </Col>
                     </Row>
