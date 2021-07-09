@@ -83,7 +83,7 @@ export default function Cards() {
                             <ProjectCard
                                 src={BarTrivia}
                                 label="Getcha Fix Virtual Bar Trivia"
-                                text="A front end Bar Trivia Simulator that gives users adrink suggestions, classic drink recipes, as well as a random Drink of the Moment. The user can then play a 10 question round of trivia and store their high score locally. This app is built using Javascript, HTML, CSS, Foundation, TheCocktailDB API, & Open Trivia Database API."
+                                text="A front end Bar Trivia Simulator that gives users drink suggestions, classic drink recipes, as well as a random Drink of the Moment. The user can then play a 10 question round of trivia and store their high score locally. This app is built using Javascript, HTML, CSS, Foundation, TheCocktailDB API, & Open Trivia Database API."
                                 path="/projects"
                                 href="https://joshrehanek.github.io/bar-trivia-simulator/"
                                 href2="https://github.com/joshrehanek/bar-trivia-simulator"
