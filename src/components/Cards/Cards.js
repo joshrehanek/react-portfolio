@@ -53,7 +53,7 @@ export default function Cards() {
                             <ProjectCard
                                 src={ShowMyShow}
                                 label="ShowMyShow"
-                                text="A event app that allows the user to view shows in an area, save their favorite show, & chat with other music lovers & artists alike. Built using the MERN stack."
+                                text="A event app that allows the user to view shows in an area, save their favorite show, & chat with other music lovers & artists alike. Built using the MERN stack, Material-UI, Socket.io, AWS Amplify & Cognito as well as the Twitter & Ticketmaster API's."
                                 path="/projects"
                                 href="https://showmyshow.herokuapp.com/"
                                 href2="https://github.com/joshrehanek/showmyshow"
