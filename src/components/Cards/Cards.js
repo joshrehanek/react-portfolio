@@ -73,7 +73,7 @@ export default function Cards() {
                             <ProjectCard
                                 src={WeatherApp}
                                 label="Anime Weather App"
-                                text="A front end weather app that allows users to serach  using React, Javascript, HTML, CSS, React Bootstrap, & Node."
+                                text="A front end weather app that allows users to search any city in the world and get the current weather. The apps background changes Anime themes to reflect the weather in the city the user searched. This app is built using React, Javascript, HTML, CSS, React Bootstrap, Node. & the OpenWeatherAPI."
                                 path="/projects"
                                 href="https://frozen-headland-03564.herokuapp.com/"
                                 href2="https://github.com/joshrehanek/react-weather-app"
@@ -83,7 +83,7 @@ export default function Cards() {
                             <ProjectCard
                                 src={BarTrivia}
                                 label="Getcha Fix Virtual Bar Trivia"
-                                text="A front end Bar Trivia Simulator using Javascript, HTML, CSS, Foundation, TheCocktailDB API, & Open Trivia Database API."
+                                text="A front end Bar Trivia Simulator that gives users adrink suggestions, classic drink recipes, as well as a random Drink of the Moment. The user can then play a 10 question round of trivia and store their high score locally. This app is built using Javascript, HTML, CSS, Foundation, TheCocktailDB API, & Open Trivia Database API."
                                 path="/projects"
                                 href="https://joshrehanek.github.io/bar-trivia-simulator/"
                                 href2="https://github.com/joshrehanek/bar-trivia-simulator"
@@ -93,7 +93,7 @@ export default function Cards() {
                             <ProjectCard
                                 src={Fitness}
                                 label="Fitness Workout Tracker"
-                                text="A full stack fitness tracker using Javascript, HTML, CSS, Node, Express, & Mongoose."
+                                text="A full stack fitness tracking app that allows users to save and store their workouts which are then rendered into graphs. This app is built using Javascript, HTML, CSS, Node, Express, & Mongoose."
                                 path="/projects"
                                 href="https://gentle-reef-09121.herokuapp.com/stats"
                                 href2="https://github.com/joshrehanek/fitness-tracking-app"
