@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Button } from "react-bootstrap";
 import "./ProjectCard.css"
 
-export default function ProjectCard({ path, src, text, href, label }) {
+export default function ProjectCard({ path, src, text, href, href2, label }) {
     return (
         <div className="projects">
             <Card>
@@ -15,8 +15,13 @@ export default function ProjectCard({ path, src, text, href, label }) {
                         {text}
                     </Card.Text>
                     <a target="_blank" rel="noreferrer" href={href}>
-                        <Button variant="primary">
+                    <Button className="project-btn" variant="primary">
                             View Project
+                    </Button>
+                    </a>
+                    <a target="_blank" rel="noreferrer" href={href2}>
+                    <Button className="repo-btn" variant="success">
+                            Github Repo
                     </Button>
                     </a>
                 </Card.Body>
