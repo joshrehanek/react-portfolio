@@ -41,7 +41,7 @@ h3 {
     position: relative;
     min-height: 100vh;
     text-align: center;
-    /* background-size: cover; */
+    background-size: cover;
     /* background-position: right; */
     display: flex;
     justify-content: space-between;
@@ -64,4 +64,9 @@ h3 {
     .hero > h3 {
       font-size: 30px;
     }
+    /* media query for iphone 12 & 12pro */
+    @media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) { }
 }
