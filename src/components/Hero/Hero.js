@@ -11,7 +11,8 @@ export default function Hero() {
             <video
                 autoPlay
                 loop
-                muted>
+                muted
+                playsinline>
                 <source
                     src={PurpleGrid}
                     type="video/mp4" />
@@ -55,7 +56,6 @@ export default function Hero() {
                 </a>
                 </div>
             </section>
-            
         </div>
     )
 }
