@@ -1,6 +1,9 @@
 h2 {
   color: rgb(219, 28, 210);
 }
+#contact {
+  background-color: black;
+}
 
 .heading {
   text-align: center;
