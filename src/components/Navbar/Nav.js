@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import './styles.css';
+import './Nav.css';
 
 export default function Navbar() {
   const [click, setClick] = useState(false);
