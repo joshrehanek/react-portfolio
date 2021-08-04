@@ -31,7 +31,7 @@ export default function Cards() {
                         <Col>
                             <ServicesCard
                                 src={FullStack}
-                                text="Fluent in:  React, Javascript, Node, Express, Mongoose, MySQL, Sequelize, JQuery, HTML, CSS,  Bootstrap, Foundation, Git, AJAX, and more."
+                                text="Fluent in:  React, Javascript, Node, Express, Mongoose, MySQL, Sequelize, RESTful APIs, Socket.io, JQuery, HTML, CSS,  Bootstrap, Foundation, Git, AJAX, and more."
                                 label="Full-Stack Web Development"
                                 path="/services"
                             />
