@@ -1,31 +1,42 @@
+//import dependencies
 import React, { useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import './Nav.css';
 
-export default function Navbar() {
-  const [click, setClick] = useState(false);
 
+export default function Navbar() {
+  //useState to manipulate click and set to false
+  const [click, setClick] = useState(false);
+  //click handler
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  //mobile menu close handler
+  const handleCloseMobileMenu = () => setClick(false);
 
 
   return (
     <header className='nav'>
       <nav>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+
+          {/* page links */}
+          <Link
+            to='/'
+            className='navbar-logo'
+            onClick={handleCloseMobileMenu}>
             JAR
             <i class='fab fa-react' />
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
+          <div
+            className='menu-icon'
+            onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link 
-              to='/#home' 
-              className='nav-links' 
-              onClick={closeMobileMenu}>
+              <Link
+                to='/#home'
+                className='nav-links'
+                onClick={handleCloseMobileMenu}>
                 Home
               </Link>
             </li>
@@ -33,7 +44,7 @@ export default function Navbar() {
               <Link
                 to='/#bio'
                 className='nav-links'
-                onClick={closeMobileMenu}
+                onClick={handleCloseMobileMenu}
               >
                 Bio
               </Link>
@@ -42,7 +53,7 @@ export default function Navbar() {
               <Link
                 to='/#services'
                 className='nav-links'
-                onClick={closeMobileMenu}
+                onClick={handleCloseMobileMenu}
               >
                 Services
               </Link>
@@ -51,7 +62,7 @@ export default function Navbar() {
               <Link
                 to='/#projects'
                 className='nav-links'
-                onClick={closeMobileMenu}
+                onClick={handleCloseMobileMenu}
               >
                 Projects
               </Link>
@@ -61,7 +72,7 @@ export default function Navbar() {
               <Link
                 to='/#contact'
                 className='nav-links'
-                onClick={closeMobileMenu}
+                onClick={handleCloseMobileMenu}
               >
                 Contact
               </Link>
