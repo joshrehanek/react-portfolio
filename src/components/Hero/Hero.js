@@ -1,3 +1,4 @@
+//import dependencies
 import React from "react";
 import "../../styles.css"
 import "./Hero.css"
@@ -8,11 +9,13 @@ import Resume from "../../assets/images/Resume(Updated).pdf"
 export default function Hero() {
     return (
         <div className="hero">
+        {/* background video */}
             <video
                 autoPlay
                 loop
                 muted
                 playsinline>
+                {/* video source */}
                 <source
                     src={PurpleGrid}
                     type="video/mp4" />
