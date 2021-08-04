@@ -1,9 +1,6 @@
 h2 {
   color: rgb(219, 28, 210);
 }
-#contact {
-  background-color: black;
-}
 
 .heading {
   text-align: center;
@@ -16,6 +13,14 @@ h2 {
   color: rgb(219, 28, 210);
 }
 
+.icon {
+  margin: 1rem;
+}
+
 .text {
+  background-color: black;
+}
+
+#contact {
   background-color: black;
 }
