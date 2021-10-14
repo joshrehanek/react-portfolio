@@ -26,6 +26,7 @@ export default function Bio() {
                     </Col>
                     <Col lg={3}>
                         <img
+                        class='bio-img'
                         src={Headshot}
                         alt='headshot'
                         />
